@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+@import url('https://fonts.googleapis.com/css?family=Eczar');
+.main{
+	text-align:center;
+	position:relative;
+	font-family:"Source Sans Pro";
+}
+li {
+  list-style: none;
+  
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+#header{
+	position:fixed;
+	display:flex;
+	min-height:30px;
+    width:100%;
+	top:0px;
+	align-items: center;
+	padding-left: 0px;
+    padding-right: 0px;
+	left:0px;
+	justify-content: space-around;
+	align-items: center;
+	background-color:darkgreen;
+	font-size:18px;
+	 
+}
+.img-logo{
+	width:60%;
+}
+.img1{
+	width:100%;
+	height:100%;
+	max-width: 300px;
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+ul {
+    width: 35vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+	padding-right:5px;
+	margin-right:15px;
+}
+.container-media{
+	display:flex;
+	
+	margin-top:100px;
+	justify-content: center;
+}
+.c-video{
+	margin:20px auto;
+}
+.form-c{
+	margin:20px auto;
+	width:20%;
+	background-color:darkgreen;
+	color: #fff;
+	padding:20px;
+	border: 1px solid #c0c0c0;
+	border-radius:15px;
+}
+.container-email{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	
+}
+.labels{
+	 display: inline-block;
+  text-align: center;
+  width: 100%;
+  padding:5px;
+  vertical-align: top;
+  margin-top:10px;
+}
+.input-file{
+	display:inline-block;
+	text-align:center;
+	width:100%;
+	vertical-align: middle;
+}
+.box-data{
+	
+	height: 20px;
+  width: 70%;
+  padding: 5px;
+  margin: 10px;
+  border: 1px solid #c0c0c0;
+  border-radius: 2px;
+}
+#submit{
+   height:35px;
+   width:100px;
+   padding:10px;
+   margin:10px auto;
+   border:1px solid #c0c0c0;
+   border-radius:5px;
+   color:darkgreen;
+   background:white;
+}
+#submit:hover{
+	animation-name:expand;
+	animation-duration:500ms;
+	animation-fill-mode: forwards;
+
+
+}
+@keyframes expand{
+	100%{
+		width:200px;
+		height:50px;
+		font-size:25px;
+	}
+}
+	
+#features{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	text-align:center;
+	margin:50px auto;
+	width:50%;
+	
+}
+.container-i{
+	width:50%;
+	margin:20px 60px;
+}
+.c-img{
+	 max-width: 100%;
+     display: block;
+     height: auto;
+}
+.img-section{
+	display:flex;
+	width:70%;
+	justify-content:center;
+	align-items:center;
+	margin:50px auto;
+}
+.img-section-programs{
+	max-width: 100%;
+     display: block;
+     height: auto;
+}
+#pricing{
+	display:flex;
+    flex-direction:column;
+	width:60%;
+	margin:50px auto;
+}
+.container-pricing{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	text-align:center;
+	
+}
+
+.buy{
+	
+	width:30%;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	border: 1px solid darkgreen;
+	margin:10px 20px;
+	border-radius:15px;
+	text-align:center;
+	align-items:center;
+}
+.p1{
+	
+	background-color:darkgreen;
+	color:white;
+	 padding: 15px 0px;
+	 margin:0px;
+	 border-radius:15px;
+	 width:100%;
+}
+.p1-ol{
+	
+	padding: 15px 0px;
+	 margin:0px;
+	 border-radius:15px;
+	 width:100%;
+}
+
+.btn{
+	height:35px;
+   width:100px;
+   padding:10px;
+   margin:10px auto;
+   border:1px solid #c0c0c0;
+   border-radius:5px;
+   color:white;
+   background:darkgreen;
+}
+.btn:hover{
+	animation-name:expand;
+	animation-duration:500ms;
+	animation-fill-mode: forwards;
+
+
+}
+@keyframes expand{
+	100%{
+		width:100%;
+		height:50px;
+		font-size:25px;
+	}
+}
+footer{
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+	align-items:center;
+	text-align:center;
+	width:100%;
+	height:35px;
+	color:white;
+	background-color:darkgreen;
+    margin:0px;
+	
+	
+}
+span{
+	display:flex;
+	justify-content:flex-end;
+}
+@media (max-width:1100px){
+	.box-data{
+		display:flex;
+		align-items:center;
+		flex-direction:center;
+		width: 80%;
+	}
+	.container-email{
+		display:flex;
+		align-items:center;
+		flex-direction:center;
+		width:100%;
+	}
+	.input-file{
+	display:flex;
+	align-items:center;
+	text-align:center;
+	flex-direction:center;
+}	
+@media (max-width:950px){
+
+    #features{display:flex;
+	justify-content:center;
+	align-items:center;
+	text-align:center;
+	margin:50px auto;
+	width:35%;
+} .container-i{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	width:50%;
+	margin:20px 60px;
+	align-items:center;
+	text-align:center;
+	}
+	.content-features{
+		text-align:center;
+		align-items:center;
+	}
+	.c-img{
+	 width: 100%;
+     display: block;
+     height: auto;
+}
+}
+@media (max-width:850px){
+	#header{
+		 margin-top: 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+	justify-content:center;
+    align-items: center;
+    text-align: center;
+    
+	}
+	.img-logo{
+	width:60%;
+}
+.img1{
+	width:100%;
+	height:5%;
+    display: flex;
+    justify-content: center;
+    margin:0px auto;
+}
+nav{
+	 width:100%;
+	 display: flex;
+	justify-content:center;
+    align-items: center;
+    text-align: center;
+}
+ul {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+	align-items: center;
+    text-align: center;
+}
+.container-media{
+	display:flex;
+	flex-direction:column-reverse;
+	margin-top:120px;
+	justify-content: center;
+	min-width:425px;
+}
+.form-c{
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+	width:60%;
+}
+h2{
+	
+	text-align:center;
+	width:50%;
+	height:auto;
+	
+}
+#video{
+	width: 100%;
+     display: block;
+     height: auto;
+}
+#features{
+	display:flex;
+	flex-direction:column;
+    justify-content:center;
+	align-items:center;
+	text-align:center;
+	margin:50px auto;
+	width:100%;
+}
+.container-pricing{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	text-align:center;
+	width:100%;
+}
+.buy{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	text-align:center;
+	width:80%;
+}
+.ul-f{
+	width: 100%;
+    display: flex;
+	flex-direction:row;
+    justify-content: space-around;
+	align-items: center;
+    text-align: center;
+	
+}
+}
+}
